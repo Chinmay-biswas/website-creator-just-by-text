@@ -46,7 +46,6 @@ babel-cache/
 
 # Static site output
 out/
-public/
 
 # Misc
 *.swp
