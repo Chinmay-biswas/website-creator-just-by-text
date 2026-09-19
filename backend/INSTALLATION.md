@@ -1,12 +1,12 @@
 # Installation Steps
 1. Clone the repository
 ```angular2html
-git clone https://github.com/Chinmay-biswas/chinmay-ai-web.git
+git clone https://github.com/Chinmay-biswas/website-creator-just-by-text.git
 ```
 
 2. Move to backend directory
 ```angular2html
-cd chinmay-ai-web/backend
+cd website-creator-just-by-text/backend
 ```
 
 3. Install the dependencies

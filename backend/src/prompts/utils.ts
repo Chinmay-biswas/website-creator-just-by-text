@@ -1,1 +1,1 @@
-export const MODIFICATIONS_TAG_NAME = 'chinmay_file_modifications';
+export const MODIFICATIONS_TAG_NAME = 'iitg_file_modifications';

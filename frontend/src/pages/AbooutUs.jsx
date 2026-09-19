@@ -10,7 +10,7 @@ export default function AboutUs() {
         <div className="w-full  flex justify-between items-center px-4">
           <div className="flex items-center">
             <h1 className="text-2xl md:text-3xl font-bold text-text-color">
-              Chinmay
+              IITG
             </h1>
             <h1 className="text-2xl md:text-3xl font-bold text-text-color-2">
               WebPro
@@ -45,7 +45,7 @@ export default function AboutUs() {
         <section className="max-w-4xl mx-auto">
           <h1 className="text-4xl font-['Montserrat'] font-semibold text-white">About Us</h1>
           <p className="mt-4 text-lg font-['Inter'] text-gray-300">
-            Welcome to <span className="font-semibold text-white">Chinmay AI Web</span>, an AI-powered website generator that allows you to create, design, and edit websites effortlessly. Whether you're a business owner, designer, or developer, our platform provides an intuitive and dynamic environment to bring your ideas to life—without writing a single line of code.
+            Welcome to <span className="font-semibold text-white">Kriti IITG WebPro</span>, an AI-powered website generator that allows you to create, design, and edit websites effortlessly. Whether you're a business owner, designer, or developer, our platform provides an intuitive and dynamic environment to bring your ideas to life—without writing a single line of code.
           </p>
         </section>
   
@@ -53,19 +53,19 @@ export default function AboutUs() {
         <section className="mt-12 max-w-4xl mx-auto">
           <h2 className="text-3xl font-['Montserrat'] font-semibold text-white">Our Mission</h2>
           <p className="mt-4 text-lg font-['Inter'] text-gray-300">
-            At <span className="font-semibold text-white">Chinmay AI Web</span>, we strive to make website creation as simple and flexible as possible. Our goal is to empower users with an intelligent tool that enables them to <span className="font-bold text-blue-400">build, customize, and edit</span> professional-grade websites in real time, making web development more accessible and efficient than ever before.
+            At <span className="font-semibold text-white">Kriti IITG WebPro</span>, we strive to make website creation as simple and flexible as possible. Our goal is to empower users with an intelligent tool that enables them to <span className="font-bold text-blue-400">build, customize, and edit</span> professional-grade websites in real time, making web development more accessible and efficient than ever before.
           </p>
         </section>
   
         {/* Why Choose Us Section */}
         <section className="mt-12 max-w-4xl mx-auto">
-          <h2 className="text-3xl font-['Montserrat'] font-semibold text-white">Why Choose Chinmay AI Web?</h2>
+          <h2 className="text-3xl font-['Montserrat'] font-semibold text-white">Why Choose Kriti IITG WebPro?</h2>
           <ul className="mt-4 space-y-3 text-lg font-['Inter'] text-gray-300">
             <li><span className="text-blue-400 font-semibold">AI-Driven Website Creation</span> – Get a fully structured website generated in seconds based on your needs.</li>
             <li><span className="text-blue-400 font-semibold">Real-Time Editing & Customization</span> – Modify every aspect of your website with an easy-to-use, visual interface.</li>
             <li><span className="text-blue-400 font-semibold">No Coding Required</span> – Create interactive and responsive designs without any programming knowledge.</li>
             <li><span className="text-blue-400 font-semibold">Optimized for SEO & Performance</span> – Websites are built with best practices for speed, responsiveness, and search engine rankings.</li>
-            <li><span className="text-blue-400 font-semibold">Scalability & Flexibility</span> – Whether for personal use or large-scale projects, Chinmay AI Web adapts to your needs.</li>
+            <li><span className="text-blue-400 font-semibold">Scalability & Flexibility</span> – Whether for personal use or large-scale projects, Kriti IITG WebPro adapts to your needs.</li>
           </ul>
         </section>
   
@@ -73,10 +73,10 @@ export default function AboutUs() {
         <section className="mt-12 max-w-4xl mx-auto">
           <h2 className="text-3xl font-['Montserrat'] font-semibold text-white">Our Vision</h2>
           <p className="mt-4 text-lg font-['Inter'] text-gray-300">
-            We believe that <span className="font-semibold text-white">website development should be intuitive and accessible to all.</span> With <span className="font-semibold text-white">Chinmay AI Web</span>, we are redefining the way websites are built—offering a seamless, intelligent, and flexible experience that keeps you in complete control.
+            We believe that <span className="font-semibold text-white">website development should be intuitive and accessible to all.</span> With <span className="font-semibold text-white">Kriti IITG WebPro</span>, we are redefining the way websites are built—offering a seamless, intelligent, and flexible experience that keeps you in complete control.
           </p>
           <p className="mt-6 text-lg font-['Inter'] text-gray-300">
-            Start <span className="text-blue-400 font-semibold">building</span> and <span className="text-blue-400 font-semibold">editing</span> your perfect website today with <span className="font-semibold text-white">Chinmay AI Web</span>—<span className="text-blue-400 font-bold">the future of smart web design!</span>
+            Start <span className="text-blue-400 font-semibold">building</span> and <span className="text-blue-400 font-semibold">editing</span> your perfect website today with <span className="font-semibold text-white">Kriti IITG WebPro</span>—<span className="text-blue-400 font-bold">the future of smart web design!</span>
           </p>
         </section>
       </div>

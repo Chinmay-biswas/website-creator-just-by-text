@@ -1,7 +1,7 @@
 
-<h1>Chinmay AI Web - AI-Powered Website Generator</h1>
+<h1>Kriti IITG WebPro - AI-Powered Website Generator</h1>
 
-Chinmay AI Web is an AI-powered platform that enables users to create custom websites effortlessly by providing prompts. This repository contains the **frontend code** for the application built with React.js, featuring seamless authentication powered by Clerk and backend integration for data fetching.
+Kriti IITG WebPro is an AI-powered platform that enables users to create custom websites effortlessly by providing prompts. This repository contains the **frontend code** for the application built with React.js, featuring seamless authentication powered by Clerk and backend integration for data fetching.
 
 ---
 
@@ -36,12 +36,12 @@ Follow these steps to set up and run the frontend locally:
 1. **Clone the Repository**  
    Clone the project repository to your local machine using Git:
    ```bash
-   git clone https://github.com/Chinmay-biswas/chinmay-ai-web.git
+   git clone https://github.com/Chinmay-biswas/website-creator-just-by-text.git
 
 2. **Navigate to the Project Directory**
 Move into the project directory:
 ```bash
-cd chinmay-ai-web/frontend
+cd website-creator-just-by-text/frontend
 ```
 3. **Install Dependencies**  
 Install all the required dependencies using `npm`:

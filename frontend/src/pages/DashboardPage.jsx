@@ -246,7 +246,7 @@ const Dashboard = () => {
         <div className="w-full  flex justify-between items-center px-4">
           <div className="flex items-center">
             <h1 className="text-2xl md:text-3xl font-bold text-text-color">
-              Chinmay
+              IITG
             </h1>
             <h1 className="text-2xl md:text-3xl font-bold text-text-color-2">
               WebPro

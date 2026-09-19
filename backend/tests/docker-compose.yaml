@@ -11,7 +11,7 @@ services:
       retries: 10
       start_period: 20s
     networks:
-      - chinmay-ai-web-network
+      - kriti-iitg-web-network
 networks:
-  chinmay-ai-web-network:
+  kriti-iitg-web-network:
     driver: bridge

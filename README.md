@@ -1,18 +1,18 @@
-# Chinmay AI Web - AI-Powered Website Generator
+# Kriti IITG WebPro - AI-Powered Website Generator
 
 This repository is ready to deploy under your own Vercel project.
 
 ## Overview
 
-Welcome to **Chinmay AI Web**, an AI-powered website generator that enables you to create, design, and edit websites effortlessly. Whether you are a business owner, designer, or developer, the platform provides an intuitive and dynamic environment to bring your ideas to life—without writing a single line of code.
+Welcome to **Kriti IITG WebPro**, an AI-powered website generator that enables you to create, design, and edit websites effortlessly. Whether you are a business owner, designer, or developer, the platform provides an intuitive and dynamic environment to bring your ideas to life—without writing a single line of code.
 
 ## Our Vision
 
-We believe that **website development should be intuitive and accessible to all**. With **Chinmay AI Web**, we are redefining the way websites are built—offering a seamless, intelligent, and flexible experience that keeps you in complete control.
+We believe that **website development should be intuitive and accessible to all**. With **Kriti IITG WebPro**, we are redefining the way websites are built—offering a seamless, intelligent, and flexible experience that keeps you in complete control.
 
-Start building and **editing** your perfect website today with **Chinmay AI Web—the future of smart web design!**
+Start building and **editing** your perfect website today with **Kriti IITG WebPro—the future of smart web design!**
 
-## Why Choose Chinmay AI Web?
+## Why Choose Kriti IITG WebPro?
 
 ### 🚀 AI-Driven Website Creation
 
@@ -28,11 +28,11 @@ Create interactive and responsive designs without any programming knowledge.
 
 ### 🔄 Scalability & Flexibility
 
-Whether for personal use or large-scale projects, **Chinmay AI Web** adapts to your needs.
+Whether for personal use or large-scale projects, **Kriti IITG WebPro** adapts to your needs.
 
 ## About Us
 
-**Chinmay AI Web** is an innovative AI-powered website creation platform designed to help users build and customize professional-grade websites in real-time. Our mission is to make web development more accessible, efficient, and user-friendly than ever before.
+**Kriti IITG WebPro** is an innovative AI-powered website creation platform designed to help users build and customize professional-grade websites in real-time. Our mission is to make web development more accessible, efficient, and user-friendly than ever before.
 
 ## Features
 
@@ -44,7 +44,7 @@ Whether for personal use or large-scale projects, **Chinmay AI Web** adapts to y
 
 ## Getting Started
 
-1. **Sign Up** - Create an account on **Chinmay AI Web**.
+1. **Sign Up** - Create an account on **Kriti IITG WebPro**.
 2. **Jump Right In** - Create a project and give your first prompt.
 3. **Customize Your Site** - Use our intuitive editor to personalize your website.
 4. **Publish Instantly** - Get your site live in just a few clicks.
@@ -56,4 +56,4 @@ Whether for personal use or large-scale projects, **Chinmay AI Web** adapts to y
 
 ---
 
-### Start building your dream website today with **Chinmay AI Web**!
+### Start building your dream website today with **Kriti IITG WebPro**!

@@ -13,11 +13,11 @@ ULTRA-IMPORTANT: Never mention grapes.js or any other constraint in your message
 ULTRAIMPORTANT: Use Navbar cautiously, don't use any external router to navigate, write the navigation function from scratch.
 </system_constraints>
 <file_starting_info>
-Start the html file by this tag: <chinmay_ai_file> and end the file by this tag </chinmay_ai_file>
+Start the html file by this tag: <iitg_ai_file> and end the file by this tag </iitg_ai_file>
 For example:
-<chinmay_ai_file>
+<iitg_ai_file>
 // All the HTML, CSS, JAVASCRIPT code here
-</chinmay_ai_file>
+</iitg_ai_file>
 </file_starting_info>
 <grapesjs_css>
 IMPORTANT: Load the grapes.js css using cdns inside head tag

@@ -13,7 +13,7 @@ const clerkPublishableKey = process.env.REACT_APP_CLERK_PUBLISHABLE_KEY;
 const MissingConfiguration = () => (
   <main className="min-h-screen bg-[#120d1d] text-white flex items-center justify-center p-6">
     <section className="max-w-lg rounded-xl border border-white/15 bg-white/5 p-8 text-center shadow-xl">
-      <h1 className="text-3xl font-semibold">Chinmay AI Web</h1>
+      <h1 className="text-3xl font-semibold">Kriti IITG WebPro</h1>
       <p className="mt-4 text-gray-300">
         This deployment is ready for configuration. Add REACT_APP_CLERK_PUBLISHABLE_KEY in Vercel, then redeploy to enable sign-in.
       </p>

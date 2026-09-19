@@ -1,5 +1,5 @@
-# Chinmay AI Web Server
-This repository contains the server-side code of Chinmay AI Web, a platform that enables users to generate websites with AI and edit them using a no-code interface.
+# Kriti IITG WebPro Server
+This repository contains the server-side code of Kriti IITG WebPro, a platform that enables users to generate websites with AI and edit them using a no-code interface.
 
 # Technical Information
 1. See [CONTROLLERS.md](CONTROLLERS.md) for getting all the information related to the exposed APIs.

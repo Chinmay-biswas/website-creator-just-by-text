@@ -306,7 +306,7 @@ export default function EditPage() {
 
       const aidata = await response.text();
 
-      const regex = /<chinmay_ai_file>([\s\S]*?)<\/chinmay_ai_file>/;
+      const regex = /<iitg_ai_file>([\s\S]*?)<\/iitg_ai_file>/;
       const cleanResponse = aidata.replace(regex, "").trim();
       const match = aidata.match(regex);
 
@@ -320,7 +320,7 @@ export default function EditPage() {
           user_id: user.id,
         };
       } else {
-        throw new Error("No content found inside <chinmay_ai_file> tags.");
+        throw new Error("No content found inside <iitg_ai_file> tags.");
       }
     } catch (error) {
       return null;
@@ -346,7 +346,7 @@ export default function EditPage() {
 
       const aidata = await response.text();
 
-      const regex = /<chinmay_ai_file>([\s\S]*?)<\/chinmay_ai_file>/;
+      const regex = /<iitg_ai_file>([\s\S]*?)<\/iitg_ai_file>/;
       const cleanResponse = aidata.replace(regex, "").trim();
       const match = aidata.match(regex);
 
@@ -360,7 +360,7 @@ export default function EditPage() {
           user_id: user.id,
         };
       } else {
-        throw new Error("No content found inside <chinmay_ai_file> tags.");
+        throw new Error("No content found inside <iitg_ai_file> tags.");
       }
     } catch (error) {
       return null;
@@ -525,7 +525,7 @@ export default function EditPage() {
         <div className="w-full  flex justify-between items-center px-4">
           <div className="flex items-center">
             <h1 className="text-2xl md:text-3xl font-bold text-text-color">
-              Chinmay
+              IITG
             </h1>
             <h1 className="text-2xl md:text-3xl font-bold text-text-color-2">
               WebPro
