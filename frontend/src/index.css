@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cl-internal-4x6jej {
+  display: none;
+}
+.cl-internal-df7v37{
+    display: none;
+}
+.cl-internal-1dauvpw{
+    display: none;
+}
+.custom-toast .Toastify__toast-icon svg {
+  fill: #5230B2; /* Your tick icon color */
+}
+.cl-internal-1uc1z6l{
+  display: none;
+}
+.cl-internal-w4f4gh{
+  display: none;
+}
+/* Custom styles for the progress bar */
+.custom-progress {
+  background-color: #5230B2 !important; /* Your desired progress bar color */
+}
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Edge */
+}
+
+/* styles.css or your main CSS file */
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
