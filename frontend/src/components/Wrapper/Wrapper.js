@@ -1,13 +1,10 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination, Autoplay } from 'swiper/modules';
 
 const Wrapper = ({ CurrentComponent }) => {
-  const location = useLocation();
-
 return (
     <div className="min-h-screen bg-gradient-to-br from-[#171124] to-[#1c142b]">
         {/* Main Container */}

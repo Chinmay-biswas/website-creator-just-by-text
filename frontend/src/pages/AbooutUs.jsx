@@ -1,4 +1,3 @@
-import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { SignedIn, UserButton } from "@clerk/clerk-react";
 import { ChartNoAxesGantt } from "lucide-react";

@@ -285,7 +285,7 @@ export default function EditPage() {
     };
 
     fetchData();
-  }, [id, getToken]);
+  }, [backend, id, getToken]);
   const fetchPromptResponse = async (message) => {
     try {
       const response = await fetch(`${backend}/prompt/reprompt`, {

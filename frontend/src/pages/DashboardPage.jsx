@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
 import {
   useUser,
@@ -22,7 +22,6 @@ const Dashboard = () => {
   const { getToken } = useAuth();
   const { user, isSignedIn } = useUser();
   const navigate = useNavigate();
-  const [isAccountVisible, setIsAccountVisible] = useState(false);
   const [isModalVisible, setIsModalVisible] = useState(false); // Modal visibility
   const [title, setTitle] = useState(""); // For the title input
   const [description, setDescription] = useState(""); // For the description input
@@ -31,7 +30,7 @@ const Dashboard = () => {
   const [sites, setSites] = useState([]);
   const [error, setError] = useState(null);
   // Function to send user data to the backend
-  const sendUserDataToBackend = async (user) => {
+  const sendUserDataToBackend = useCallback(async (user) => {
     if (!user) return;
 
     const userData = {
@@ -67,11 +66,11 @@ const Dashboard = () => {
     } catch (error) {
       console.error("Error sending user data:", error);
     }
-  };
+  }, [backend, getToken]);
   const toggleModal = () => setIsModalVisible((prev) => !prev);
 
   // Function to fetch additional sites from API and append them to the existing array
-  const fetchSites = async () => {
+  const fetchSites = useCallback(async () => {
     try {
       const token = await getToken();
       if (!token) {
@@ -111,7 +110,7 @@ const Dashboard = () => {
       console.error("Error fetching sites:", err);
       setError("An error occurred while fetching sites.");
     }
-  };
+  }, [backend, getToken]);
 
   // Send user data to the backend and fetch sites when user is signed in
   useEffect(() => {
@@ -120,12 +119,7 @@ const Dashboard = () => {
       sendUserDataToBackend(user);
       fetchSites();
     }
-  }, [user, isSignedIn]);
-
-  // Handle account modal toggle
-  const toggleAccountModal = () => {
-    setIsAccountVisible((prev) => !prev);
-  };
+  }, [user, isSignedIn, sendUserDataToBackend, fetchSites]);
   // Redirect to sign-in page if the user is not signed in
   if (!isSignedIn) {
     return <RedirectToSignIn />;
