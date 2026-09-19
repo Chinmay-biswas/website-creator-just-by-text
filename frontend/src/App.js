@@ -6,7 +6,6 @@ import DashboardPage from "./pages/DashboardPage";
 import EditPage from "./pages/EditPage";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { dark } from "@clerk/themes";
 import AboutUs from "./pages/AbooutUs";
 const clerkPublishableKey = process.env.REACT_APP_CLERK_PUBLISHABLE_KEY;
 
@@ -24,9 +23,6 @@ const MissingConfiguration = () => (
 const App = () => (
   !clerkPublishableKey ? <MissingConfiguration /> :
   <ClerkProvider
-  appearance={{
-    baseTheme: [dark],
-  }}
   publishableKey={clerkPublishableKey}>
     <Router>
       <Routes>
